@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88ABB3EF2D66A494009A48ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABB3EE2D66A494009A48ED /* AppDelegate.swift */; };
+		88ABB3F12D66A494009A48ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABB3F02D66A494009A48ED /* SceneDelegate.swift */; };
+		88ABB3F32D66A494009A48ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABB3F22D66A494009A48ED /* ViewController.swift */; };
+		88ABB3F62D66A495009A48ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 88ABB3F52D66A495009A48ED /* Base */; };
+		88ABB3F82D66A496009A48ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ABB3F72D66A496009A48ED /* Assets.xcassets */; };
+		88ABB3FB2D66A496009A48ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 88ABB3FA2D66A496009A48ED /* Base */; };
+		88ABB4062D66A496009A48ED /* Lab07TimeTableAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABB4052D66A496009A48ED /* Lab07TimeTableAppTests.swift */; };
+		88ABB4102D66A496009A48ED /* Lab07TimeTableAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABB40F2D66A496009A48ED /* Lab07TimeTableAppUITests.swift */; };
+		88ABB4122D66A496009A48ED /* Lab07TimeTableAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABB4112D66A496009A48ED /* Lab07TimeTableAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88ABB4022D66A496009A48ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88ABB3E32D66A494009A48ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88ABB3EA2D66A494009A48ED;
+			remoteInfo = Lab07TimeTableApp;
+		};
+		88ABB40C2D66A496009A48ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88ABB3E32D66A494009A48ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88ABB3EA2D66A494009A48ED;
+			remoteInfo = Lab07TimeTableApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88ABB3EB2D66A494009A48ED /* Lab07TimeTableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab07TimeTableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ABB3EE2D66A494009A48ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88ABB3F02D66A494009A48ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88ABB3F22D66A494009A48ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88ABB3F52D66A495009A48ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88ABB3F72D66A496009A48ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88ABB3FA2D66A496009A48ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88ABB3FC2D66A496009A48ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ABB4012D66A496009A48ED /* Lab07TimeTableAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab07TimeTableAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ABB4052D66A496009A48ED /* Lab07TimeTableAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab07TimeTableAppTests.swift; sourceTree = "<group>"; };
+		88ABB40B2D66A496009A48ED /* Lab07TimeTableAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab07TimeTableAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ABB40F2D66A496009A48ED /* Lab07TimeTableAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab07TimeTableAppUITests.swift; sourceTree = "<group>"; };
+		88ABB4112D66A496009A48ED /* Lab07TimeTableAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab07TimeTableAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88ABB3E82D66A494009A48ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ABB3FE2D66A496009A48ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ABB4082D66A496009A48ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88ABB3E22D66A494009A48ED = {
+			isa = PBXGroup;
+			children = (
+				88ABB3ED2D66A494009A48ED /* Lab07TimeTableApp */,
+				88ABB4042D66A496009A48ED /* Lab07TimeTableAppTests */,
+				88ABB40E2D66A496009A48ED /* Lab07TimeTableAppUITests */,
+				88ABB3EC2D66A494009A48ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88ABB3EC2D66A494009A48ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88ABB3EB2D66A494009A48ED /* Lab07TimeTableApp.app */,
+				88ABB4012D66A496009A48ED /* Lab07TimeTableAppTests.xctest */,
+				88ABB40B2D66A496009A48ED /* Lab07TimeTableAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88ABB3ED2D66A494009A48ED /* Lab07TimeTableApp */ = {
+			isa = PBXGroup;
+			children = (
+				88ABB3EE2D66A494009A48ED /* AppDelegate.swift */,
+				88ABB3F02D66A494009A48ED /* SceneDelegate.swift */,
+				88ABB3F22D66A494009A48ED /* ViewController.swift */,
+				88ABB3F42D66A495009A48ED /* Main.storyboard */,
+				88ABB3F72D66A496009A48ED /* Assets.xcassets */,
+				88ABB3F92D66A496009A48ED /* LaunchScreen.storyboard */,
+				88ABB3FC2D66A496009A48ED /* Info.plist */,
+			);
+			path = Lab07TimeTableApp;
+			sourceTree = "<group>";
+		};
+		88ABB4042D66A496009A48ED /* Lab07TimeTableAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				88ABB4052D66A496009A48ED /* Lab07TimeTableAppTests.swift */,
+			);
+			path = Lab07TimeTableAppTests;
+			sourceTree = "<group>";
+		};
+		88ABB40E2D66A496009A48ED /* Lab07TimeTableAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88ABB40F2D66A496009A48ED /* Lab07TimeTableAppUITests.swift */,
+				88ABB4112D66A496009A48ED /* Lab07TimeTableAppUITestsLaunchTests.swift */,
+			);
+			path = Lab07TimeTableAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88ABB3EA2D66A494009A48ED /* Lab07TimeTableApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ABB4152D66A496009A48ED /* Build configuration list for PBXNativeTarget "Lab07TimeTableApp" */;
+			buildPhases = (
+				88ABB3E72D66A494009A48ED /* Sources */,
+				88ABB3E82D66A494009A48ED /* Frameworks */,
+				88ABB3E92D66A494009A48ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab07TimeTableApp;
+			productName = Lab07TimeTableApp;
+			productReference = 88ABB3EB2D66A494009A48ED /* Lab07TimeTableApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88ABB4002D66A496009A48ED /* Lab07TimeTableAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ABB4182D66A496009A48ED /* Build configuration list for PBXNativeTarget "Lab07TimeTableAppTests" */;
+			buildPhases = (
+				88ABB3FD2D66A496009A48ED /* Sources */,
+				88ABB3FE2D66A496009A48ED /* Frameworks */,
+				88ABB3FF2D66A496009A48ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88ABB4032D66A496009A48ED /* PBXTargetDependency */,
+			);
+			name = Lab07TimeTableAppTests;
+			productName = Lab07TimeTableAppTests;
+			productReference = 88ABB4012D66A496009A48ED /* Lab07TimeTableAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88ABB40A2D66A496009A48ED /* Lab07TimeTableAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ABB41B2D66A496009A48ED /* Build configuration list for PBXNativeTarget "Lab07TimeTableAppUITests" */;
+			buildPhases = (
+				88ABB4072D66A496009A48ED /* Sources */,
+				88ABB4082D66A496009A48ED /* Frameworks */,
+				88ABB4092D66A496009A48ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88ABB40D2D66A496009A48ED /* PBXTargetDependency */,
+			);
+			name = Lab07TimeTableAppUITests;
+			productName = Lab07TimeTableAppUITests;
+			productReference = 88ABB40B2D66A496009A48ED /* Lab07TimeTableAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ABB3E32D66A494009A48ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					88ABB3EA2D66A494009A48ED = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					88ABB4002D66A496009A48ED = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 88ABB3EA2D66A494009A48ED;
+					};
+					88ABB40A2D66A496009A48ED = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 88ABB3EA2D66A494009A48ED;
+					};
+				};
+			};
+			buildConfigurationList = 88ABB3E62D66A494009A48ED /* Build configuration list for PBXProject "Lab07TimeTableApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88ABB3E22D66A494009A48ED;
+			productRefGroup = 88ABB3EC2D66A494009A48ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88ABB3EA2D66A494009A48ED /* Lab07TimeTableApp */,
+				88ABB4002D66A496009A48ED /* Lab07TimeTableAppTests */,
+				88ABB40A2D66A496009A48ED /* Lab07TimeTableAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88ABB3E92D66A494009A48ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ABB3F82D66A496009A48ED /* Assets.xcassets in Resources */,
+				88ABB3FB2D66A496009A48ED /* Base in Resources */,
+				88ABB3F62D66A495009A48ED /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ABB3FF2D66A496009A48ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ABB4092D66A496009A48ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88ABB3E72D66A494009A48ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ABB3F32D66A494009A48ED /* ViewController.swift in Sources */,
+				88ABB3EF2D66A494009A48ED /* AppDelegate.swift in Sources */,
+				88ABB3F12D66A494009A48ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ABB3FD2D66A496009A48ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ABB4062D66A496009A48ED /* Lab07TimeTableAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ABB4072D66A496009A48ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ABB4102D66A496009A48ED /* Lab07TimeTableAppUITests.swift in Sources */,
+				88ABB4122D66A496009A48ED /* Lab07TimeTableAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88ABB4032D66A496009A48ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88ABB3EA2D66A494009A48ED /* Lab07TimeTableApp */;
+			targetProxy = 88ABB4022D66A496009A48ED /* PBXContainerItemProxy */;
+		};
+		88ABB40D2D66A496009A48ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88ABB3EA2D66A494009A48ED /* Lab07TimeTableApp */;
+			targetProxy = 88ABB40C2D66A496009A48ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88ABB3F42D66A495009A48ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88ABB3F52D66A495009A48ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88ABB3F92D66A496009A48ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88ABB3FA2D66A496009A48ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88ABB4132D66A496009A48ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88ABB4142D66A496009A48ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88ABB4162D66A496009A48ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab07TimeTableApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luilson.Lab07TimeTableApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88ABB4172D66A496009A48ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab07TimeTableApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luilson.Lab07TimeTableApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88ABB4192D66A496009A48ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luilson.Lab07TimeTableAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab07TimeTableApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab07TimeTableApp";
+			};
+			name = Debug;
+		};
+		88ABB41A2D66A496009A48ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luilson.Lab07TimeTableAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab07TimeTableApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab07TimeTableApp";
+			};
+			name = Release;
+		};
+		88ABB41C2D66A496009A48ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luilson.Lab07TimeTableAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab07TimeTableApp;
+			};
+			name = Debug;
+		};
+		88ABB41D2D66A496009A48ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luilson.Lab07TimeTableAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab07TimeTableApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88ABB3E62D66A494009A48ED /* Build configuration list for PBXProject "Lab07TimeTableApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ABB4132D66A496009A48ED /* Debug */,
+				88ABB4142D66A496009A48ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ABB4152D66A496009A48ED /* Build configuration list for PBXNativeTarget "Lab07TimeTableApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ABB4162D66A496009A48ED /* Debug */,
+				88ABB4172D66A496009A48ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ABB4182D66A496009A48ED /* Build configuration list for PBXNativeTarget "Lab07TimeTableAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ABB4192D66A496009A48ED /* Debug */,
+				88ABB41A2D66A496009A48ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ABB41B2D66A496009A48ED /* Build configuration list for PBXNativeTarget "Lab07TimeTableAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ABB41C2D66A496009A48ED /* Debug */,
+				88ABB41D2D66A496009A48ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ABB3E32D66A494009A48ED /* Project object */;
+}
